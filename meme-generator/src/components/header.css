@@ -1,0 +1,41 @@
+.App {
+    text-align: center;
+  }
+  
+  .App-logo {
+    pointer-events: none;
+    width: 31.306px;
+    height: 26.218px;
+    flex-shrink: 0;
+  }
+  
+  .App-header {
+    background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 1.25rem;
+    color: white;
+    padding: 20px;
+    gap: 8px;
+  }
+  
+  .App-text {
+    color: #FFF;
+    font-family: Karla;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -2.075px;
+  }
+  
+  .App-para {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 500;
+    margin-left: auto;
+  }
+  
