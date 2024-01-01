@@ -1,12 +1,13 @@
 import './Meme.css'
-import {test} from './memes.js'
+import {test} from './memes.js';
+import {useState} from 'react'
 export default function Meme() {
 
+    const [random, setRandom] = useState(0)
+
     function generateRandomNumber() {
-        let random = Math.floor(Math.random() * (100));
-        if(test.success) {
-            console.log(test.data.memes[random].id)
-        }
+        setRandom(Math.floor(Math.random() * (100)))
+        console.log(random);
     }
 
     return (
@@ -21,6 +22,7 @@ export default function Meme() {
             <input type="text" id="fname" name="bottom" placeholder="And take my money"/>
             </div>
             </div>
+            <img src={test.data.memes[random].url} alt='memeimage' className='output-image'/>
             <button onClick={generateRandomNumber} className='button' type='button'>Get a new meme image  🖼</button>
         </form>
     )

@@ -54,3 +54,9 @@
     line-height: normal;
     letter-spacing: -1.6px;
 }
+.output-image {
+    width: 477px;
+    height: 268px;
+    flex-shrink: 0;
+    border-radius: 2px;
+}
